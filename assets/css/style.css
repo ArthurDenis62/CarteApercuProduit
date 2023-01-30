@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+:root {
+    --color-darkCyan: hsl(158, 36%, 37%);
+    --color-cream: hsl(30, 38%, 92%);
+
+    --color-veryDarkBlue: hsl(212, 21%, 14%);
+    --color-darkGrayishBlue: hsl(228, 12%, 48%);
+    --color-white: hsl(0, 0%, 100%);
+}
+
+p {
+    font-size: 14px;
+}
