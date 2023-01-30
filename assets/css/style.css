@@ -24,8 +24,8 @@ p {
 }
 
 .container {
-    width: 575px;
-    height: 1090px;
+    width: 100%;
+    height: 100%;
     margin-top: 5em;
 }
 
@@ -36,6 +36,10 @@ p {
     display: flex;
     flex-direction: column;
     border-radius: 1em;
+}
+
+#imgresponsive {
+    background-image: url(/assets/img/image-product-mobile.jpg);
 }
 
 .cards img {
@@ -126,4 +130,37 @@ p {
     color: var(--color-white);
     font-weight: 700;
     margin: 0;
+}
+
+@media screen and (min-width: 1000px) {
+    .cards {
+        flex-direction: row;
+        width: 1000px;
+        height: 675px;
+    }
+    .card {
+        margin: 50px;
+        width: 350px;
+    }
+    .card p {
+        margin: 40px 0 0 0;
+    }
+    .card .span {
+        margin-top: 40px;
+    }
+    #imgresponsive {
+        background-image: url(/assets/img/image-product-desktop.jpg);
+    }
+    .cards img {
+        width: 550px;
+        height: 675px;
+        border-top-right-radius: 0;
+        border-bottom-left-radius: 1em;
+    }
+    .cart {
+        margin-top: 50px;
+    }
+    .cart .btn {
+        width: 100%;
+    }
 }
