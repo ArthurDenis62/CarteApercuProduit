@@ -39,7 +39,7 @@ p {
 }
 
 #imgresponsive {
-    background-image: url(../assets/img/image-product-mobile.jpg);
+    background-image: url(../img/image-product-mobile.jpg);
 }
 
 .cards img {
@@ -149,7 +149,7 @@ p {
         margin-top: 40px;
     }
     #imgresponsive {
-        background-image: url(../assets/img/image-product-desktop.jpg);
+        background-image: url(../img/image-product-desktop.jpg);
     }
     .cards img {
         width: 550px;
